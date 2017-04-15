@@ -1,3 +1,14 @@
+.flex-container{
+    width:90%;
+    max-width:1366px;
+    min-width:220px;
+    margin:20px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center ;
+    align-items: center ;
+    align-content: stretch;
+}
 header{
   width: 97%;
   padding: 0.5% 2% 0.5% 0%;
@@ -7,7 +18,7 @@ header{
   top: 0;
 }
 section{
-  margin-top: 4%
+  margin-top: 1%
 }
 #titulo{
   font-family: 'Righteous', cursive;/
@@ -42,6 +53,7 @@ nav{
 #imgprincipal{
   padding: 2% 2% 2% 2%;
   background: #82c3a6;
+  
 }
 img{
   margin: auto;
@@ -83,4 +95,5 @@ img{
   font-size: 1.5em;
   text-decoration:underline;
   text-align: center;
+  align-content: space-around;
 }
